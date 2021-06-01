@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "my-gcp-plugin"
+  description: "demo"
+  annotations:
+    github.com/project-slug: leemills83/my-gcp-plugin
+    backstage.io/techdocs-ref: url:https://github.com/leemills83/my-gcp-plugin
+spec:
+  type: website
+  lifecycle: experimental
+  owner: "Lee Mills"
